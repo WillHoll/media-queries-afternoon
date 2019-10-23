@@ -16,6 +16,7 @@ header {
 .container {
     max-width: 1198px;
     margin: 0 auto;
+    padding: 0 1rem;
 }
 
 .header {
@@ -83,5 +84,10 @@ li:hover {
     ul {
         flex-direction: column;
 
+    }
+}
+@media (max-width: 720px) {
+    .container {
+        width: auto;
     }
 }
